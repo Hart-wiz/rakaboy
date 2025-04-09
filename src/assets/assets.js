@@ -9,7 +9,6 @@ import recent_six from "./IMG-20250407-WA0010.jpg";
 import recent_seven from "./IMG-20250407-WA0011.jpg";
 import recent_eight from "./IMG-20250407-WA0012.jpg";
 import recent_nine from "./IMG-20250407-WA0013.jpg";
-import bd from "./bd.png";
 import notebook from "./notebook.png";
 import billboard from "./billboard.png";
 import socialmedia from "./socialmedia.png";

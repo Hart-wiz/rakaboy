@@ -3,7 +3,7 @@ import { header } from "../assets/assets";
 
 const Header = () => {
   return (
-    <div className="flex bg-black h-screen  justify-center items-center max-lg:flex-col gap-6">
+    <div className="flex bg-gradient-to-br from-black to-gray-600 h-screen  justify-center items-center max-lg:flex-col gap-6 pt-16">
       <div className="bg-white rounded-full p-3  ">
         <img
           src={header.image}
@@ -19,8 +19,16 @@ const Header = () => {
           {header.description}
         </p>
         <div className=" flex gap-9 mt-6 justify-center font-bold">
-          <button className="bg-amber-600  p-3 ">connect to Raph</button>
-          <button className="bg-blue-700 p-3 px-7">Gallery</button>
+          <a href="https://wa.me/23408145581961">
+            <button className="bg-amber-600  p-3 hover:bg-amber-800 text-xl cursor-pointer hover:opacity-90">
+              connect with Raph
+            </button>
+          </a>
+          <a href="#portfolio">
+            <button className="bg-blue-700 p-3 px-7 cursor-pointer hover:bg-blue-950 hover:opacity-90 text-xl">
+              Gallery
+            </button>
+          </a>
         </div>
       </div>
     </div>

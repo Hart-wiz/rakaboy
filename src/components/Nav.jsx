@@ -40,7 +40,7 @@ const Nav = () => {
         </h3>
 
         {/* Desktop Nav */}
-        <ul className="hidden md:flex gap-8 text-gray-700 dark:text-gray-200 font-medium">
+        <ul className="hidden md:flex gap-8 text-gray-700 dark:text-gray-200 text-lg font-bold">
           {navItems.map((item) => (
             <li key={item.label}>
               <a
