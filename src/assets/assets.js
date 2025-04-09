@@ -9,7 +9,7 @@ import recent_six from "./IMG-20250407-WA0010.jpg";
 import recent_seven from "./IMG-20250407-WA0011.jpg";
 import recent_eight from "./IMG-20250407-WA0012.jpg";
 import recent_nine from "./IMG-20250407-WA0013.jpg";
-import notebook from "./notebook.png";
+import celeb from "./celeb.png";
 import billboard from "./billboard.png";
 import socialmedia from "./socialmedia.png";
 import flyer from "./flyer.png";
@@ -57,7 +57,7 @@ export const icon = [
     text: " Social Media Design – Custom visuals that boost engagement and elevate your brand across all platforms.",
   },
   {
-    image: notebook,
+    image: celeb,
     text: " Raph Computer Operator Services –Typing of projects, letters, and professional presentations.",
   },
 ];
